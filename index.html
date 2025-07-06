@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD Productos</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <h1>Gestión de Productos</h1>
+
+    <form id="product-form">
+      <input type="text" id="nombre" placeholder="Nombre" required />
+      <input type="number" id="precio" placeholder="Precio" required />
+      <input type="hidden" id="producto-id" />
+      <button type="submit">Guardar</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Precio</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="product-table-body"></tbody>
+    </table>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

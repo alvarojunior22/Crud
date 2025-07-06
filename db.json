@@ -1,0 +1,14 @@
+{
+  "productos": [
+    {
+      "id": "f417",
+      "nombre": "camisa",
+      "precio": 40000
+    },
+    {
+      "id": "6ee0",
+      "nombre": "pantalon",
+      "precio": 50000
+    }
+  ]
+}
